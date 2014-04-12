@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1BA6F"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TOGETHER WE CAN PROTECT THE LAND THAT DEFINES US"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="WITH CONTINUING LAND PROTECTION, WE WILL HAVE A NATURAL LEGACY TO PASS ON TO THE NEXT GENERATION."
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        android:src="@drawable/protected_lands" />
+
+    <TextView
+        android:id="@+id/instagramButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollHorizontally="true"
+        android:text="Over the past 30 years in South Carolina an average of 200 acres per day of rural land have been developed, resulting in the loss of open spaces, farmland and forests to residential subdivisions and commercial uses faster than the population is growing. It&apos;s critical that everyone who treasures and loves this land commits to conserving and preserving its future. Together, we can protect the land that defines the Lowcountry&apos;s unique sense of place and quality of life." />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        android:src="@drawable/sol_invite" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Become a Member"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/individualsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Individuals" />
+
+        <Button
+            android:id="@+id/businessesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Businesses" />
+
+        <Button
+            android:id="@+id/landownersButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Landowners" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Preserve the Lowcountry&apos;s Legacy"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/plannnedGivingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Planned Giving Information" />
+
+</LinearLayout>
